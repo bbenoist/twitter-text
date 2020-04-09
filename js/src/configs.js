@@ -6,7 +6,7 @@ export default {
     scale: 1,
     defaultWeight: 1,
     transformedURLLength: 23,
-    ranges: []
+    ranges: [],
   },
   version2: {
     version: 2,
@@ -18,8 +18,8 @@ export default {
       { start: 0, end: 4351, weight: 100 },
       { start: 8192, end: 8205, weight: 100 },
       { start: 8208, end: 8223, weight: 100 },
-      { start: 8242, end: 8247, weight: 100 }
-    ]
+      { start: 8242, end: 8247, weight: 100 },
+    ],
   },
   version3: {
     version: 3,
@@ -32,8 +32,8 @@ export default {
       { start: 0, end: 4351, weight: 100 },
       { start: 8192, end: 8205, weight: 100 },
       { start: 8208, end: 8223, weight: 100 },
-      { start: 8242, end: 8247, weight: 100 }
-    ]
+      { start: 8242, end: 8247, weight: 100 },
+    ],
   },
   defaults: {
     version: 3,
@@ -46,7 +46,7 @@ export default {
       { start: 0, end: 4351, weight: 100 },
       { start: 8192, end: 8205, weight: 100 },
       { start: 8208, end: 8223, weight: 100 },
-      { start: 8242, end: 8247, weight: 100 }
-    ]
-  }
+      { start: 8242, end: 8247, weight: 100 },
+    ],
+  },
 };
