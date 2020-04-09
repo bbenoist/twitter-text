@@ -4,7 +4,7 @@ module.exports = api => {
   return {
     plugins: [
       '@babel/plugin-transform-flow-strip-types',
-      '@babel/plugin-transform-runtime',
+      ['@babel/plugin-transform-runtime', { corejs: 3 }],
       '@babel/plugin-transform-spread',
       '@babel/plugin-syntax-dynamic-import',
       '@babel/plugin-proposal-class-properties',
@@ -17,7 +17,7 @@ module.exports = api => {
         '@babel/preset-env',
         {
           useBuiltIns: 'usage',
-          corejs: 2,
+          corejs: 3,
           modules: api.env('commonjs') || api.env('test') ? 'commonjs' : false,
           forceAllTransforms: api.env('production')
         }
